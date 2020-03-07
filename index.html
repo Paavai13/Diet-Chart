@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script type="text/javascript" src="app.js"></script>
+	 <link rel="stylesheet" href="style.css">
+	<title>DIET CHART</title>
+</head>
+<body>
+	<h3><mark>MAKE YOUR DIET CHART HERE</mark></h3>
+	<div class="bg-image"></div>
+	<br>
+	<input type="text" placeholder="name" id="name" required/>
+	<button onclick="welcome()">yes!</button>
+	<p id="hi"><b></b></p>
+	<br>
+
+	<h4 id="details"><mark>ENTER YOUR CREDENTIALS!</mark></h4>
+	<br><br><br><br><br>
+
+	<p id="gen"><mark>GENDER</mark></p>
+	<input type="text" placeholder="gender(M/F)" id="gender" required>
+
+	<p id="ag"><mark>AGE</mark></p>
+	<input type="text" placeholder="age" id="age" required/>
+
+	<p id="h"><mark>HEIGHT</mark></p>
+	<input type="text" placeholder="height" id="ht" required/><br>
+
+	<p id="w"><mark>WEIGHT</mark></p>
+	<input type="text" placeholder="weight" id="wt" required/>
+
+	<br>
+	<br>
+	<button onclick="calcReq()">done!</button>
+	<p id="r"></p>
+
+
+	<input type="text" placeholder="FOOD ITEM" id="food" >
+	<input type="text" id="fat" placeholder="FATS">
+	<input type="text" id="carbs" placeholder="CARBS">
+
+	<button onclick="myFunction()">add</button>
+	
+	<table id="myTable">
+ 		<tr style="color:red">
+    		<td>FOOD ITEM</td>
+			<td>FATS</td>
+			<td>CARBS</td>
+			<td>cummulative mean of calories consumed</td>
+		</tr>
+		
+	</table>
+	<p id="total"></p>
+	<br>
+
+
+
+
+
+</body>
+</html>
